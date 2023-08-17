@@ -17,3 +17,29 @@ sub_id:int
 weight:int
 
 shipment_date:datetime
+
+
+
+## TASK2 
+
+### Unique Users Per Client Per Month
+
+Write a query that returns the number of unique users per client per month
+
+Table: fact_events
+
+### fact_events
+
+id:int
+
+time_id:datetime
+
+user_id:varchar
+
+customer_id:varchar
+
+client_id:varchar
+
+event_type:varchar
+
+event_id:int
